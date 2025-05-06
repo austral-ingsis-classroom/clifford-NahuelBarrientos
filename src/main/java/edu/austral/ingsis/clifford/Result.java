@@ -1,5 +1,6 @@
 package edu.austral.ingsis.clifford;
-//seald debbo ver como hacer las condicionales
-interface Result {
+//sealed debbo ver como hacer las condicionales
+//permits Comand
+ interface  Result   {
 
 }

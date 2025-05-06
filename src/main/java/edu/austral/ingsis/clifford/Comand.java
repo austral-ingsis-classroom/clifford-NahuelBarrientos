@@ -1,6 +1,6 @@
 package edu.austral.ingsis.clifford;
 
-interface Comand {
+interface Comand{
     Result execute(String[] arg);
 }
 

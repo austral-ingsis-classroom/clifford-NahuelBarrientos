@@ -9,6 +9,10 @@ public class ls implements Comand {
 
     @Override
     public Result execute(String[] arg) {
+        String[] temp = new String[];
+        for(int i = 0; i< fileSystem.length;i++){
+            temp[i] = fileSystem[i];
+        }
         return null;
     }
 }
